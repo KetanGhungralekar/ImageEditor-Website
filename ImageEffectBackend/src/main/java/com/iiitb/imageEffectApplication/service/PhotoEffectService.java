@@ -16,7 +16,7 @@ import java.util.concurrent.*;
 @Service
 public class PhotoEffectService {
     Callable <Pixel[][]> ImageEffect;
-    ExecutorService executorService = Executors.newFixedThreadPool(10);
+//    ExecutorService executorService = Executors.newFixedThreadPool(10);
     @Autowired
     private ProcessingUtils processingUtils;
     @Autowired
